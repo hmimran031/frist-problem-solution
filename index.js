@@ -53,9 +53,10 @@ let newProduction = productionPerMachine * newMachines;
 let unsoldProducts = 3;
 let remainingProducts = newProduction - unsoldProducts;
 
-console.log("Total production on 8 machines: " + newProduction);
+console.log("Total production on 8 machines: " + newProduction.toFixed(2));
 console.log(
-  "Remaining products if 3 products are not sold: " + remainingProducts
+  "Remaining products if 3 products are not sold: " +
+    remainingProducts.toFixed(3)
 );
 
 // Number 8
